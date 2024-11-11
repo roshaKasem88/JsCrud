@@ -1,0 +1,96 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color:#fff;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+    margin:10px 2px;
+}
+
+input{
+    background-color: #fff;
+    height: 30px;
+    padding: 4px;
+    margin: 3px 0px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+small{
+    width: 250px;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+}
+input:focus{
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}
+.price input
+{
+    width: 20%;
+}
+small:before{
+    content:'Total :';
+}
+button{
+    width: 100%;
+    height: 25px;
+    margin-top: 10px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5 s;
+    
+}
+button:hover{
+    letter-spacing: 2px;
+    background-color: rgb(75, 138, 138);
+}
+.SearchBlock input{
+    width: 100%;
+    background-color: rgb(38, 40, 40);
+   
+}
+.SearchBlock .btnSearch{
+display: flex;
+justify-content: space-between;
+
+}
+#DeleteAll #deleteAll{
+margin:3px 0px;
+height: 30px;
+font-weight: bold;
+}
+
+
+.SearchBlock .btnSearch button{
+    width: 45%;
+}
+#dataTable{
+    width: 100%;
+    margin: 2px 0px;
+    text-align: center;
+}
+#dataTable th{
+text-transform: uppercase;
+}
+TH,TD{
+    padding: 5px;
+}
